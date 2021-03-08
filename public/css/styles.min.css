@@ -2,7 +2,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	border-radius: 10px;
 }
 html {
 	font-size: 16px;
@@ -26,6 +25,7 @@ label {
 }
 input {
 	border: 1px solid #eee;
+	border-radius: 10px;
 	padding: 12px;
 	outline: none;
 }
@@ -37,6 +37,7 @@ button {
 	color: #fff;
 	font-size: 16px;
 	transition: background 0.3s ease;
+	border-radius: 10px;
 }
 button:hover {
 	background: #6b47b8;
@@ -58,6 +59,7 @@ button:disabled {
 	background: #f7f7fa;
 	padding: 24px;
 	width: 250px;
+	border-radius: 10px;
 }
 .centered-form button {
 	width: 100%;
@@ -83,6 +85,7 @@ button:disabled {
 	max-height: 100vh;
 }
 .chat__messages {
+	color: #3b444b;
 	flex-grow: 1;
 	padding: 24px 24px 0;
 	overflow-y: scroll;
